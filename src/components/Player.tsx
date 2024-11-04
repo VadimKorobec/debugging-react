@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 export default function Player() {
-  const [enteredPlayerName, setEnteredPlayerName] = useState<string>('');
-  const [submitted, setSubmitted] = useState<boolean>(false); 
+  const [enteredPlayerName, setEnteredPlayerName] = useState<string>("");
+  const [submitted, setSubmitted] = useState<boolean>(false);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const enteredName = event.target.value.trim();
